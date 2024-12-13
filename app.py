@@ -76,8 +76,8 @@ def plot_bounding_boxes(img: Image, bounding_boxes: str) -> Image:
             bounding_box["label"],
             fill=color,
             font=ImageFont.truetype(
-                "JetBrainsMonoNLNerdFontMono-Regular.ttf",
-                # "/Users/yankeemaharjan/Library/Fonts/JetBrainsMonoNLNerdFontMono-Regular.ttf",
+                "Arial.ttf",
+                # "path/to/your/font.ttf",
                 size=14,
             ),
         )
